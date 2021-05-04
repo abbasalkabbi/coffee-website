@@ -144,21 +144,21 @@
     margin-top: 60px;
     position: absolute;
     bottom: 20%; right: 10%;
-    background-color: #fff;
+    background:none;
     border-radius: 40px;
     color: #000;
     cursor: pointer;
+    border: solid 1px #fff;
+    color: #fff;
     transition: all 1s;
 }
 .container .home .right span:hover{
     background-color: #000;
-    color: #fff;
-    border: solid 1px #fff;
 }
 /*style for social in right in home*/
 .container .home .right ul {
     position: absolute;
-    bottom: 10%; right: 10%;
+    bottom: 5%; right: 10%;
     list-style: none;
 }
 .container .home .right ul li{
