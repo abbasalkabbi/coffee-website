@@ -1,0 +1,175 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.container{
+    width: 100%;height: 100vh;
+    background-color: #0f0f13;
+    overflow: hidden;
+}
+.container .head{
+    width: 100%;height: 100px;
+    position: relative;
+}
+/*style for logo in head*/
+.container .head .logo{
+    width: 20%;height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .head .logo img{
+    width: 80px;
+}
+/*style for navbar in head*/
+.container .head .navbar{
+    width: 40%;height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .head .navbar ul{
+    width: 100%;
+}
+.container .head .navbar ul li{
+    float: left;
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.container .head .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 220px;
+    border: 1px solid #fff;
+    transition: all 1s;
+}
+.container .head .navbar ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*style for search div in head*/
+.container .head .search-div{
+   width: 40%;height: 100%;
+   position: absolute;
+   top: 0px;right: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+}
+.container .head .search-div span{
+   top: -50px;right: -50px;
+   position: absolute;
+   width: 220px; height: 220px;
+   border-radius: 50%;
+   background-color: #3e4246;
+   z-index:2;
+}
+.container .head .search-div .search{
+    width: 500px; height: 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.container .head .search-div .search img{
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.container .head .search-div .search input{
+    float: right;
+    width: 90%;height: 100%;
+    background: none;
+    border: none;
+    font-size: 33px;
+}
+/*style for home*/
+.container .home{
+    width: 100%;height: 80vh;
+    position: relative;
+}
+/*style for left in home*/
+.container .home .left{
+   width: 50%;height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+   position: relative;
+   overflow: hidden;
+}
+.container .home .left span{
+    bottom:50px;right:1%;
+    position: absolute;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background-color: #3e4246;
+    z-index: 2;
+}
+
+.container .home .left img{
+    width: 70%;
+    z-index: 3;
+    position: absolute;
+}
+/*style for right in home*/
+.container .home .right{
+    width: 50%;height:100%;
+    position: absolute;
+    top: 0;right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .home .right h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.container .home .right p{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.container .home .right span{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 60px;
+    position: absolute;
+    bottom: 20%; right: 10%;
+    background-color: #fff;
+    border-radius: 40px;
+    color: #000;
+    cursor: pointer;
+    transition: all 1s;
+}
+.container .home .right span:hover{
+    background-color: #000;
+    color: #fff;
+    border: solid 1px #fff;
+}
+/*style for social in right in home*/
+.container .home .right ul {
+    position: absolute;
+    bottom: 10%; right: 10%;
+    list-style: none;
+}
+.container .home .right ul li{
+    float: left;
+    margin-left: 10px;
+}
+.container .home .right ul li a img{
+    width: 44px;
+    opacity: .5;
+    transition: all .5s;
+}
+.container .home .right ul li a img:hover{
+    opacity: 1;
+}
